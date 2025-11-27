@@ -95,9 +95,6 @@ const client = new Client({
 
 // -------------------- CONFIGURAÇÕES --------------------
 
-// Canal de música
-const MUSIC_CHANNEL_ID = "1443617421058375801";
-
 // Prefixo dos comandos do Jockie
 const JOCKIE_PREFIX = "m!";
 
@@ -180,5 +177,6 @@ setInterval(() => {
 
 // -------------------- LOGIN --------------------
 client.login("process.env.TOKEN");
+
 
 
