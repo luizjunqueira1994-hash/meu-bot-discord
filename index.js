@@ -181,4 +181,5 @@ setInterval(() => {
 }, 60 * 60 * 1000); // Envia a cada 1 hora
 
 // -------------------- LOGIN --------------------
-client.login("MTQ0MzY1MjIzOTU0NDY4MDYzOQ.GsgxGk.xnmAdO6cm4H4WojTjnF9exV6bnEwQYxWw0ro9k");
+client.login("process.env.TOKEN");
+
