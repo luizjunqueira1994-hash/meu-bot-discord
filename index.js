@@ -39,8 +39,6 @@ client.on(Events.GuildMemberAdd, (member) => {
 });
 
 // -------------------- MENSAGENS NO CANAL DE MÚSICA --------------------
-const MUSIC_CHANNEL_ID = "1443617421058375801";
-
 client.on(Events.MessageCreate, async (message) => {
   if (message.channel.id !== MUSIC_CHANNEL_ID) return;
   if (message.author.bot) return;
@@ -182,4 +180,5 @@ setInterval(() => {
 
 // -------------------- LOGIN --------------------
 client.login("process.env.TOKEN");
+
 
